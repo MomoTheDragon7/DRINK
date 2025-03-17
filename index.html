@@ -1,7 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Button Link Example</title>
+  <title>Centered Button Link Example</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Make the body take up the full viewport height */
+      margin: 0; /* Remove default margin */
+    }
+
+    button {
+      padding: 10px 20px; /* Add some padding to the button */
+      font-size: 16px;
+    }
+  </style>
 </head>
 <body>
 
@@ -11,7 +26,7 @@
 
   <script>
     function goToNewPage() {
-      window.location.href = "newpage.html"; // Replace "newpage.html" with the actual path
+      window.location.href = "newpage.html";
     }
   </script>
 
